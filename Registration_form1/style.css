@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+   font-size: 14px;
+   background-color: rgb(234, 225, 225); 
+}
+.container{
+    background-color:aliceblue;
+    width:500px;
+    padding: 25px;
+    margin:50px auto;
+    /* height: 230px; */
+    border-top: 5px solid blue;
+    box-shadow: 0px 0 9px 5px rgb(0,0,0,0.5);
+}
+.container h1 {
+    font-size: 24px;
+    line-height: 24px;
+     padding: 30px;
+     text-align: center;
+}
+.input-name{
+   width:90%;
+   position: relative;
+   margin: 20px auto;
+   /* padding: 6px; */
+   
+}
+.lock{
+    padding:8px 11px;
+}
+.name{
+    width: 45%;
+    padding: 8px 0 8px 40px;
+}
+.input-name span{
+ 
+    margin-left: 30px;
+}
+.names{
+   width:100%;
+   padding:8px 0 8px 40px; 
+}
+.input-name i{
+   position: absolute;
+   font-size: 18px;
+   color: blue;
+   border-right: 1px solid lightgrey;
+   
+}
+.name,.names{
+    border:1px solid  lightgrey
+}
+.name:hover,.names:hover,.name:focus,.names:focus{
+   background:rgb(248, 243, 243);
+   border-color:#a7a6a6; 
+   outline: none;
+   color: #000;
+}
+
+i:hover{
+    color: black;
+}
+.country{
+    width:100%;
+    padding:8px 0 8px 40px;  
+    border:1px solid  lightgrey;
+    padding: 0 12px;
+    height:35px;
+    cursor: pointer;
+    color: #7b7b7b;
+}
+.country:hover,.country:focus{
+    color: black;
+    outline:none;
+    border-color:#a7a6a6;
+}
+.radio-btn{
+    margin-right: 5px;
+}
+.arrow{
+    
+    position: absolute;
+    top:calc(15px);
+    right:5px;
+    width:0;
+    height:0;
+    pointer-events: none;
+    border-width: 8px 5px 0 5px;
+    border-style:solid ;
+    border-color: blue transparent transparent transparent ;
+}
+
+.btn{
+    width:30%;
+    padding: 10px;
+    background-color: #000;
+    color: aliceblue;
+    border-radius:50px;
+    box-shadow: 0px 0 9px 3px rgb(0,0,0,0.3);
+    
+    
+}
+.btn:hover{
+    color:blue;
+}
+.check-btn{
+    margin-right: 8px ;
+}
+.a{
+    color: #000;
+}
